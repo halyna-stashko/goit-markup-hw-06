@@ -95,7 +95,7 @@ img {
 /* Контейнер */
 
 .container {
-    min-width: 1200px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
   
@@ -704,7 +704,7 @@ color: var(--accent-color);
 /* Футер */
 
 .footer {
-    width: 1200px;
+    /* width: 1200px; */
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-bg-color);
@@ -911,7 +911,7 @@ color: var(--accent-color);
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1,55;
+    line-height: 1.55;
     letter-spacing: 0.54px;
 
 }
