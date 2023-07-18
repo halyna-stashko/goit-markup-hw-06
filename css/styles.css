@@ -763,7 +763,9 @@ color: var(--accent-color);
 }
 
 .subscribe-text {
+    display: inline-block;
     margin-bottom: 20px;
+    width: 358px;
     color: var(--primary-white-color);
     font-weight: 700;
     line-height: normal;
