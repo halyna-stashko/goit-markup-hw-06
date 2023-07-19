@@ -454,7 +454,7 @@ color: var(--accent-color);
     text-align: left;
 }
 
-.chechbox:checked + .form-chechbox {
+.chechbox:checked ~ .form-chechbox {
     fill: none;
     background-image: url(../images/check-modal.svg);
 }
@@ -718,8 +718,12 @@ color: var(--accent-color);
     align-items: baseline;
 }
 
+.footer-block:last-child {
+    margin-right: 0;
+}
+
 .footer-social {
-    margin-right: 93px;
+    margin-right: 10px;
 }
 
 .footer-social > .social-list {
@@ -756,6 +760,10 @@ color: var(--accent-color);
 .social-icon:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+}
+
+.footer-subscribe {
+    margin-left: auto;
 }
 
 .subscribe-field {
