@@ -718,10 +718,6 @@ color: var(--accent-color);
     align-items: baseline;
 }
 
-.footer-block:last-child {
-    margin-right: 0;
-}
-
 .footer-social {
     margin-right: 10px;
 }
