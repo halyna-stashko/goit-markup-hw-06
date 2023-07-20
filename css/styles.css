@@ -459,6 +459,11 @@ color: var(--accent-color);
     background-image: url(../images/check-modal.svg);
 }
 
+.chechbox:focus ~ .form-chechbox {
+    border: 1px solid var(--accent-color);
+    outline: none;
+}
+
 .chechbox {
     position: absolute;
     width: 1px;
